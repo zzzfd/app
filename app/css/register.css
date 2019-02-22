@@ -1,0 +1,182 @@
+.container {
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 3.65rem;
+    background-image:linear-gradient(45deg,red 0, #ff652f 100%);
+}
+
+.topBar {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.barLeft {
+    float: left;
+    margin-top: 1rem;
+}
+
+.barLeft > img {
+    width: 0.96rem;
+    height: 0.5rem;
+}
+
+.barMiddle {
+    width: 2.68rem;
+    height: 2.68rem;
+    margin: 0 auto;
+    padding-top: 0.37rem;
+}
+
+.barMiddle > img {
+    width: 2.68rem;
+    height: 2.68rem;
+}
+
+.barBottom {
+    width: 0.77rem;
+    height: 0.39rem;
+    position: absolute;
+    right: 3.1rem;
+    top: 3.38rem;
+}
+
+.barBottom > img {
+    width: 0.77rem;
+    height: 0.39rem;
+}
+
+/*header*/
+.banner{
+    width: 100%;
+    height: 7.12rem;
+}
+.bannerBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0.4rem auto;
+    background-color: #ffffff;
+    box-shadow: 0 -0.03rem 0.16rem 0
+    #c0c1bf;
+    border-radius: 0.05rem;
+    position: relative;
+}
+.bannerBox .one{
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #000000;
+    opacity: 0.5;
+    padding-top: 0.4rem;
+    margin-left: 0.4rem;
+}
+.bannerBox .two .input{
+    width: 6rem;
+    border: none;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    font-size: 0.3rem;
+    letter-spacing:0.02rem;
+    color: #000000;
+    opacity: 0.6;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.04rem solid #000000;
+}
+.bannerBox .three{
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #000000;
+    opacity: 0.5;
+    padding-top: 0.7rem;
+    margin-left: 0.4rem;
+}
+.bannerBox .four .input{
+    border: none;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    font-size: 0.3rem;
+    letter-spacing:0.02rem;
+    color: #000000;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.04rem solid #000000;
+    opacity: 0.3;
+
+}
+.bannerBox .five .input{
+    border: none;
+    width: 2.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    font-size: 0.3rem;
+    letter-spacing:0.02rem;
+    color: #000000;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.04rem solid #000000;
+    opacity: 0.3;
+}
+.banner .gain{
+    width: 2.4rem;
+    height: 0.68rem;
+    background-color: #f82121;
+    box-shadow: 0 -0.05rem 0.05rem 0 rgba(252, 23, 77, 0.76);
+    border-radius: 0.3rem;
+    position: absolute;
+    right: 0.8rem;
+    bottom: 5.2rem;
+}
+.banner .gain .left{
+    float: left;
+    width: 0.16rem;
+    height: 0.16rem;
+    background-color: #ffffff;
+    border: solid 0.03rem #fc4448;
+    border-radius: 50%;
+    margin-left: 0.15rem;
+    margin-top: 0.25rem;
+}
+.banner .gain .middle{
+    float: left;
+    width:1.53rem;
+    height: 0.29rem;
+    font-size: 0.28rem;
+    letter-spacing: 0.02rem;
+    color: #f9f3f3;
+    opacity: 0.49;
+    margin-top: 0.15rem;
+    margin-left: 0.15rem;
+}
+.banner .gain .right{
+    float: right;
+    width: 0.16rem;
+    height: 0.16rem;
+    background-color: #ffffff;
+    border: solid 0.03rem #fc4448;
+    border-radius: 50%;
+    margin-right: 0.15rem;
+    margin-top: 0.25rem;
+}
+
+/*banner*/
+.footer{
+    width: 100%;
+    height: 1.25rem;
+}
+.footerBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0.7rem auto 0;
+    background-color: #ffffff;
+    box-shadow: 0 -0.03rem 0.16rem 0 #c6c7c5;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 1.25rem;
+    letter-spacing: 0.02rem;
+    color: #000000;
+    opacity: 0.7;
+}
+/*底部*/

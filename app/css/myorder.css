@@ -1,0 +1,172 @@
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.headerBox {
+    width: 7.5rem;
+    height: 1rem;
+}
+
+.headerBox .titleBox {
+    width: 7.02rem;
+    height: 0.28rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+}
+
+.headerBox .title {
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #050505;
+    opacity: 0.89;
+
+}
+
+.cate {
+    width: 2.06rem;
+    height: 0.61rem;
+    border-radius: 0 0.30rem 0.30rem 0;
+    background-image:linear-gradient(45deg,red 0, #ff652f 100%);
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #fbf9f9;
+    text-align: center;
+    line-height: 0.61rem;
+}
+.cateBig{
+    width: 7.02rem;
+    height: 2.6rem;
+    margin: 0 auto;
+}
+.cateBig .left{
+    float: left;
+    width: 3.25rem;
+    height: 1.95rem;
+    margin-top: 0.3rem;
+}
+.cateBig .left>img{
+    width: 3.25rem;
+    height: 1.95rem;
+}
+.cateBig .right{
+    float: right;
+    width: 3.25rem;
+    height: 1.95rem;
+    margin-top: 0.3rem;
+}
+.cateBig .right>img{
+    float: left;
+    width: 3.25rem;
+    height: 1.95rem;
+}
+/*cate*/
+.history{
+    width: 100%;
+    height: 6.96rem;
+}
+.historyBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.historyBox .first{
+    width: 7rem;
+    height: 1.77rem;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.03rem 0.16rem 0 #c1c1c1;
+}
+.historyBox .first .left{
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+    float: left;
+}
+.historyBox .first .left>img{
+    width: 1.54rem;
+    height: 1.54rem;
+}
+.historyBox .first .middle{
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.historyBox .first .middle .one{
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #020000;
+}
+.historyBox .first .middle .two{
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #050505;
+    opacity: 0.65;
+    line-height: 0.3rem;
+    border-bottom: 0.01rem dotted #000000;
+}
+.historyBox .first .middle .three{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #020000;
+    line-height: 0.7rem;
+    opacity: 0.46;
+
+}
+.historyBox .first .right{
+    float: right;
+    width: 0.99rem;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    background-color: #048ed5;
+    font-size: 0.18rem;
+    line-height: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 0.2rem;
+}
+/*history*/
+.white{
+    width: 100%;
+    height: 1.2rem;
+}
+#base{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 -5px 16px 0 #d9d9d9;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#baseBox{
+    width:7.02rem;
+    height: 0.8rem;
+    margin: 0.09rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.baseBox{
+    width: 0.68rem;
+    height: 0.78rem;
+}
+.baseBox>img{
+    width: 0.5rem;
+    height: 0.47rem;
+    margin-left: 0.09rem;
+
+}
+.baseBox p{
+    width:0.68rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+}
+/*底部导航*/

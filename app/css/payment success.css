@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+    height:6.78rem;
+}
+.headerBox{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.headerBox>img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    position:fixed;
+    top: 20rem;
+    width: 100%;
+    height: 6rem;
+}
+.footerBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding-left:1.5rem;
+}
+.footerBox .first{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.16rem;
+    width: 3.47rem;
+    height: 1.16rem;
+    background-image: linear-gradient(45deg, #f84f33 0%, #fa381b 50%, #fc2003 100%),
+    linear-gradient(#f6f5f6, #f6f5f6);
+    box-shadow: 0 0.19rem 0.1rem 0 rgba(252, 36, 7, 0.57);
+    border-radius: 0.58rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.02rem;
+    color: #fcf8f8;
+}
+.footerBox .second{
+    text-align: center;
+    line-height: 1.16rem;
+    width: 3.47rem;
+    height: 1.16rem;
+    background-image: linear-gradient(45deg, #f8a733 0%, #fa901b 50%, #fc7803 100%),
+    linear-gradient(#f6f5f6, #f6f5f6);
+    box-shadow: 0 0.19rem 0.1rem 0 rgba(252, 116, 7, 0.57);
+    border-radius: 0.58rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.02rem;
+    color: #fcf8f8;
+
+}

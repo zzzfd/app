@@ -1,0 +1,265 @@
+.header{
+    width: 100%;
+    height: 6.78rem;
+}
+.headerBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.headerBox>img{
+    width: 100%;
+    height: 6.78rem;
+}
+.headerText{
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    width:100%;
+    height: 3rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.headerText .first{
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+}
+.headerText .second{
+    font-size: 0.24rem;
+    letter-spacing:0.01rem;
+    color: #ffffff;
+}
+.headerText .three>img{
+    width: 0.23rem;
+    height: 0.22rem;
+}
+.headerText .four{
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #fa36fa;
+    margin-left: 38%;
+    margin-top: 0.5rem;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.headerText .four>img{
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.headerText .five{
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #fa36fa;
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.headerText .five>img{
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.cover{
+    position: absolute;
+    bottom: -0.7rem;
+    left: 28%;
+    width: 3.72rem;
+    height: 1.25rem;
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+}
+.coverBox{
+    width: 3.32rem;
+    height: 1.11rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.09rem 0.07rem 0 rgba(220, 7, 230, 0.35);
+    border-radius: 0.56rem;
+    border: 0.01rem solid rgba(220, 7, 230, 0.35);
+    margin: 0.2rem auto 0;
+}
+.coverBox .left{
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background-image: linear-gradient(#a7098b, #a7098b),
+    linear-gradient(#d907e1, #d907e1);
+    border: solid 0.05rem rgba(214, 6, 221, 0.77);
+}
+
+.coverBox .middle{
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    float: left;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #cc08f6;
+}
+.coverBox .right{
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 0.5rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background-image: linear-gradient(#a7098b, #a7098b),
+    linear-gradient(#d907e1, #d907e1);
+    border: solid 0.05rem rgba(214, 6, 221, 0.77);
+}
+/*header*/
+.banner{
+    width: 100%;
+    height: 6.5rem;
+}
+.bannerBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 1.3rem auto 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.bannerBox .first{
+    width: 7.02rem;
+    height: 1.18rem;
+    border-radius:0.2rem;
+    background-image: linear-gradient(#ffffff, #ffffff),
+    linear-gradient(#f6f5f6, #f6f5f6);
+    box-shadow: 0 -0.03rem 0.16rem 0 #bdbcbd;
+}
+.bannerBox .first .left{
+    float: left;
+    margin-top: 0.35rem;
+    margin-left: 0.3rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #4a78c2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.bannerBox .first .left>img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.bannerBox .first .middle{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #040404;
+    opacity: 0.7;
+}
+.bannerBox .first .right{
+    float: right;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+    width: 0.69rem;
+    height: 0.39rem;
+    background-image: linear-gradient(180deg, #56acf6 0%, #066df9 100%),
+    linear-gradient(#2c82f6, #2c82f6);
+    border-radius: 0.2rem;
+    text-align: center;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+}
+.bannerBox .first .right2{
+    float: right;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+    width: 0.83rem;
+    height: 0.41rem;
+    background-image: linear-gradient(180deg, #fa2121 0%, #fb3939 100%);
+    border-radius: 0.2rem;
+}
+.bannerBox .first .right2 .minright{
+    float: left;
+    width: 0.33rem;
+    height: 0.33rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0.1rem;
+    margin-top: 0.04rem;
+}
+.bannerBox .first .right2 .minright .minmin{
+    width: 0.20rem;
+    height: 0.20rem;
+    background-color:rgba(214, 6, 221, 0.77);
+    border-radius: 50%;
+    margin-left: 0.06rem;
+    margin-top: 0.07rem;
+}
+.bannerBox .first .right2 .minright .minmin .min{
+    float: left;
+    width: 0.09rem;
+    height: 0.09rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0.06rem;
+    margin-top: 0.05rem;
+}
+.bannerBox .first .right3{
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    width: 0.41rem;
+    height: 0.09rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bannerBox .first .right3 .one{
+    width: 0.09rem;
+    height: 0.09rem;
+    background-color: #949394;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+/*daohang*/
+.white{
+    width: 100%;
+    height: 1.2rem;
+}
+#base{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 -5px 16px 0 #d9d9d9;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#baseBox{
+    width:7.02rem;
+    height: 0.8rem;
+    margin: 0.09rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.baseBox{
+    width: 0.68rem;
+    height: 0.78rem;
+}
+.baseBox>img{
+    width: 0.5rem;
+    height: 0.47rem;
+    margin-left: 0.09rem;
+
+}
+.baseBox p{
+    width:0.68rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+}
+/*底部导航*/

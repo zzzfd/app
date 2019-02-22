@@ -1,0 +1,196 @@
+.header{
+    width: 100%;
+    height: 6.32rem;
+}
+.headerBox{
+    width: 100%;
+    height: 6.32rem;
+    margin: 0 auto;
+    background-image:linear-gradient(45deg,red 0, #ff652f 100%);
+}
+.headerBox .title{
+    width: 7.02rem;
+    height: 0.5rem;
+    margin:0 auto ;
+    text-align: center;
+}
+.headerBox .title .left{
+    float: left;
+    margin-top: 0.5rem;
+}
+.headerBox .title .left>img{
+    width: 0.3rem;
+    height: 0.44rem;
+}
+.headerBox .title .middle{
+    margin-top: 0.5rem;
+    float: right;
+    margin-right: 2.6rem;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #f9f8f9;
+}
+.headerBox .send{
+    width: 7.02rem;
+    height: 0.3rem;
+    margin: 0.8rem auto 0;
+}
+.headerBox .send .left{
+    float: left;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #f9f8f9;
+    opacity: 0.9;
+}
+.headerBox .send .right{
+    text-align: center;
+    float: left;
+    width: 0.81rem;
+    height: 0.29rem;
+    margin-left: 0.1rem;
+    border-radius: 0.14rem;
+    border: solid 0.03rem #fcf9f9;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #f9f8f9;
+    opacity: 0.8;
+}
+.headerBox .address{
+    width: 7.02rem;
+    height: 0.5rem;
+    margin: 0.1rem auto 0;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #f9f8f9;
+}
+.headerBox  .name{
+    width: 7.02rem;
+    height: 0.25rem;
+    margin: 0.1rem auto 0;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #f9f8f9;
+    opacity: 0.9;
+}
+.headerBox .timeBox{
+    width: 7.02rem;
+    height: 1.88rem;
+    margin: 0.5rem auto 0;
+    background-color: #f6f5f6;
+    border-radius: 0.3rem;
+}
+.headerBox .timeBox .topBox{
+    width: 100%;
+    height:1.06rem;
+    border-bottom: 0.01rem dotted rgba(0,0,0,0.6);
+}
+.headerBox .timeBox .topBox .left{
+    float: left;
+    width: 3.1rem;
+    height: 1.06rem;
+    line-height: 0.5rem;
+    margin-left: 0.1rem;
+}
+.headerBox .timeBox .topBox .left .one{
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #0a0a0a;
+    opacity: 0.9;
+}
+.headerBox .timeBox .topBox .left .two{
+    font-size:0.18rem;
+    letter-spacing: 0.01rem;
+    color: #d6681e;
+}
+.headerBox .timeBox .topBox .right{
+    float: right;
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #d6681e;
+    opacity: 0.95;
+}
+.headerBox .timeBox .bottomBox .left{
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #070707;
+    opacity: 0.9;
+}
+.headerBox .timeBox .bottomBox .right{
+    float: right;
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #d6681e;
+}
+/*header*/
+.order{
+    width: 100%;
+    height: 7rem;
+    position: relative;
+    bottom: 1rem;
+}
+.orderBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0.03rem 0.16rem 0 #b9bab8;
+    border-radius: 0.4rem;
+    background-color: #f6f5f6;
+}
+.orderBox .title{
+    width: 100%;
+    height: 1.12rem;
+    border-bottom: 0.01rem dotted rgba(0,0,0,0.5);
+}
+.orderBox .title .text{
+    float: left;
+    margin-left: 2.2rem;
+    margin-top: 0.35rem;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #0c0c0c;
+}
+.orderBox .title .picture>img{
+    float: right;
+    margin-right: 0.4rem;
+    margin-top: 0.2rem;
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.orderBox .way{
+    width: 100%;
+    height: 5.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.orderBox .way .one{
+    width: 100%;
+    height: 1.14rem;
+    border-bottom: 0.01rem dotted rgba(0,0,0,0.5);
+}
+.orderBox .way .one .left{
+    float: left;
+}
+.orderBox .way .one .left>img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.3rem;
+    margin-top: 0.35rem;
+}
+.orderBox .way .one .text{
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #0c0c0c;
+    opacity: 0.9;
+}
+/*order column*/
